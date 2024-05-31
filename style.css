@@ -3,5 +3,14 @@
     padding: 0px;
 }
 body{
-background-color: skyblue;
+background-color: #ccd9ff;
+}
+.contenedor{
+    /* display: flex; */
+    flex-direction: column;
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    
 }
