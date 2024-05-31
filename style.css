@@ -4,13 +4,32 @@
 }
 body{
 background-color: #ccd9ff;
+margin: 5%;
+padding: 20%;
 }
 .contenedor{
     /* display: flex; */
     flex-direction: column;
     background-color: white;
-    width: 50%;
-    height: 100%;
-    text-align: center;
-    
+    width:100%;
+    text-align:center;
+    justify-content: space-around;
+    border: 3px solid white;
+    border-radius: 10%;
+    padding: 15px;
+}
+div{
+    margin: 30px;
+}
+img{
+    width: 15px;
+    height: 15px;
+    color: #3366ff;
+}
+button{
+    color: 	white;
+    background-color: 	#3366ff;
+    border-radius: 5px;
+    height: 30px;
+    width: 70px;
 }
